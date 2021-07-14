@@ -233,7 +233,11 @@ footer {
 
 /* media-queries-for-mobile-400 */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
     header {
         flex-direction: column;
         height: 695px;
@@ -249,7 +253,7 @@ footer {
         width: 329px;
         height: 259px;
     }
-    /* -----main-secton-deign
+    /* -----main-section-deign
     ------------------ */
     .blog-article {
         margin-top: 47px;
@@ -270,8 +274,42 @@ footer {
         gap: 24px;
         flex-direction: column;
     }
+    .club {
+        width: 260px;
+    }
     .logo img {
         width: 200px;
         height: 63px;
+    }
+}
+
+
+/* responsive-deign-ipad */
+
+@media screen and (max-width: 1024px) and (min-width: 701px) {
+    header {
+        gap: 0;
+    }
+    .head-text h1 {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 66px;
+    }
+    .head-banner img {
+        width: 400px;
+        height: 345px;
+    }
+    .clubs {
+        display: grid;
+        grid-template-columns: repeat;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        margin: 20px 120px;
+        grid-row-gap: 40px;
+    }
+    .blog-article {
+        grid-template-columns: repeat(2, 330px);
+        grid-template-rows: repeat(6, 474px);
+        grid-gap: 40px;
     }
 }
