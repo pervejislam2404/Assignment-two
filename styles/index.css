@@ -154,6 +154,10 @@ main {
     width: 300px;
     background-color: white;
     box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border: 5px solid black;
+    border-width: 5px;
+    border-image-source: linear-gradient(orange, yellow, red);
+    border-image-slice: 1;
 }
 
 .club-image img {
@@ -224,6 +228,8 @@ footer {
 
 .copyright span>i {
     margin: 0 5px;
+    font-size: 18px;
+    margin-top: 7px;
 }
 
 
@@ -235,7 +241,6 @@ footer {
 
 @media only screen and (max-width: 700px) {
     body {
-        width: 100vw;
         overflow-x: hidden;
     }
     header {
@@ -255,6 +260,9 @@ footer {
     }
     /* -----main-section-deign
     ------------------ */
+    .blog {
+        width: 300px;
+    }
     .blog-article {
         margin-top: 47px;
         display: grid;
@@ -286,7 +294,7 @@ footer {
 
 /* responsive-deign-ipad */
 
-@media screen and (max-width: 1024px) and (min-width: 701px) {
+@media screen and (min-width: 701px) and (max-width: 1024px) {
     header {
         gap: 0;
     }
