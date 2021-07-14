@@ -263,6 +263,9 @@ footer {
     .blog {
         width: 300px;
     }
+    .blog-image img {
+        /* width: 230px; */
+    }
     .blog-article {
         margin-top: 47px;
         display: grid;
