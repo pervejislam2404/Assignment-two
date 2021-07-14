@@ -4,6 +4,16 @@
 * {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title-margin {
+    margin: 15px 0;
+}
+
+.button-margin {
+    margin: 20px 0;
 }
 
 
@@ -142,6 +152,7 @@ main {
 .club-heading {
     font-size: 50px;
     text-align: center;
+    margin: 60px 0 30px 0;
 }
 
 .club-text {
@@ -223,7 +234,7 @@ footer {
 .copyright {
     display: flex;
     align-items: center;
-    word-spacing: px;
+    margin: 20px 0 50px;
 }
 
 .copyright span>i {
