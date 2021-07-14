@@ -133,6 +133,10 @@ main {
 
 
 /*------------------------------------------------ 
+ main-section-article-deign----------------------  */
+
+
+/*------------------------------------------------ 
  section-club-info-deign----------------------  */
 
 .club-heading {
@@ -177,10 +181,6 @@ main {
 
 /*------------------------------------- 
  section-club-info-deign  ----------------*/
-
-
-/*------------------------------------------------ 
- main-section-article-deign----------------------  */
 
 
 /*------------------------------------- 
@@ -233,12 +233,13 @@ footer {
 }
 
 
-/* media-queries-for-mobile-400 */
+/* media-queries-for-mobile-700 */
 
 @media only screen and (max-width: 700px) {
     body {
         overflow-x: hidden;
     }
+    /* heading-deisgn       */
     header {
         flex-direction: column;
         height: 695px;
